@@ -1,3 +1,55 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
 .peter-parker{
-    color: chocolate;
+    color: darkorange;
+}
+
+section{
+    height: 600px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+.first-img{
+    width: 100%;
+}
+
+.hire-me-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightgrey, black);
+    
+    border-radius: 5px;
+    padding: 8px 25px;
+    font-size: 17px;
+    color: aliceblue;
+    font-weight: 700;
+}
+.first-section{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.second-section{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.box-shadow{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 220px;
+    border-left: 4px solid greenyellow;
+}
+.experiance-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    position: left;
 }
